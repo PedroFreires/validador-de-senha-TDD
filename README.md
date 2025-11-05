@@ -5,19 +5,9 @@ Esses testes foram feitos antes da aplicação na estrutura principal, usando as
 Os métodos Principais do JUnit usados para testes foram assertFalse e assertTrue da Classe Assert.java
 
 ## Pasta de Testes (local do teste)
-Na estrutura Android:
+Na estrutura de pastas Android:
 
-validaSenhaTDD/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   └── java/
-│   │   │       └── com/example/validasenhatdd/ ⬅️ Código de Produção (ValidadorDeSenha.java)
-│   │   ├── test/
-│   │   │   └── java/
-│   │   │       └── com/example/validasenhatdd/ ⬅️ Testes Unitários Locais (ValidadorSenhaTeste.java)
-│   │   └── androidTest/
-│   │       └── java/
-│   │           └── com/example/validasenhatdd/ ⬅️ Testes de Instrumentação (Android)
-│   └── manifests/ ⬅️ AndroidManifest.xml
-└── build.gradle
+| Diretório/Arquivo | Caminho Relativo | Tipo de Código |
+| :--- | :--- | :--- |
+| `ValidadorDeSenha.java` | `app/src/main/java/...` | **Produção** |
+| `ValidadorSenhaTeste.java` | `app/src/test/java/...` | **Testes Unitários Locais** |
